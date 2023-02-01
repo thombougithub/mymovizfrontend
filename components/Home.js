@@ -44,7 +44,7 @@ function Home() {
   const [moviesData,setMoviesData] = useState([]);
 
     useEffect(()=>{
-      fetch('https://mymovizbackend-snowy.vercel.app/')
+      fetch("https://mymovizbackend-lovat.vercel.app/")
       .then(response=>response.json())
       .then(data=>{
         const mesFilms = [];
